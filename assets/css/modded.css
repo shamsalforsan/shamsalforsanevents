@@ -1,0 +1,73 @@
+/* For Home page slider response */
+
+@media only screen and (max-width: 960px) {
+    #pc-slider {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    #mobile-slider {
+        display: none;
+    }
+}
+
+/* For whatsapp icon */
+
+/* //////////////////////////////////////// */
+
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 15px;
+    left: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.whatsapp {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.whats {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 40px;
+}
+
+/* End whatsapp icon */
+
+.logo-size {
+    height: 4em;
+    width: 19em;
+}
+
+.contact-footer {
+    margin-left: 1em;
+}
+
+/*For browser scrollbar*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e6a52f;
+    border-radius: 50px;
+}
+
+/*End For browser scrollbar*/
